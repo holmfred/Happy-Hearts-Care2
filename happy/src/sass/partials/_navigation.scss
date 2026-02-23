@@ -1,0 +1,48 @@
+@use 'variables';
+
+header {
+  z-index: 1000;
+}
+
+.navbar {
+    background: linear-gradient(to right, rgba(25, 73, 62, 0.1), #19493E );
+}
+
+.brand-logo-image {
+    width: 40px;
+    // margin-bottom: 20px;
+    @media (min-width: 992px) {
+      width: 60px;
+      margin-left: auto;
+      margin-bottom: 0;
+    }
+  }
+  
+  .brand-logo-text {
+    max-width: 200px;
+  
+    @media(min-width: 500px) {
+      max-width: 300px;
+    }
+  
+    @media(min-width: 992px) {
+      max-width: 400px;
+    }
+  }
+
+
+a.nav-link-btn {
+    background-color: variables.$red-color;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.navbar-collapse {
+  font-size: 20px;
+}
+
+.dropdown-menu show {
+  background-color: linear-gradient(to right, rgba(25, 73, 62, 0.1), #19493E ) !important;
+}
