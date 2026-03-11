@@ -61,7 +61,8 @@ function Footer() {
           <p>©2026 Happy Hearts Care</p>
         </div>
         <div className="footer-me">
-            <p>Created by: <a href="www.fredriksolsen.com">Fredrik Sørlien Olsen</a></p>
+            <p>Created By:</p>
+            <a href="www.fredriksolsen.com">Fredrik Sørlien Olsen</a>
         </div>
       </div>
     </footer>

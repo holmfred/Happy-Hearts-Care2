@@ -12,7 +12,6 @@ export default function HomeBanner() {
                 <h1>Din Støtte</h1>
                 <h1>Påvirker Familier</h1>
                 <h1>i Ngatataek</h1>
-                <p className="banner-hash">#CareWithUs</p>
             </div>
         </>
     );

@@ -10,17 +10,14 @@ import HHCText from "../../../images/Name.png";
 export const NAV = () => {
   return (
     <div>
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="body-tertiary">
         <Container>
-          <div className='nav-left'>
               <NavLink to="/" className="brand-logo">
                   <img src={HHCLogo} alt="Happy Hearts Care Logo" className="brand-logo-image"/>
               </NavLink>
               <NavLink to="/" className="nav-link" id="avoid-active">
                   <img src={HHCText} alt="Happy Hearts Care" className="brand-logo-text" />
               </NavLink>
-          </div>
-          <div className='nav-right'>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -38,7 +35,6 @@ export const NAV = () => {
               </NavLink>
             </Nav>
             </Navbar.Collapse>
-          </div>
       </Container>
     </Navbar>
     </div>

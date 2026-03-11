@@ -8,10 +8,6 @@ header {
     background: linear-gradient(to right, rgba(25, 73, 62, 0.1), #19493E );
 }
 
-.nav-left {
-  display: flex;
-}
-
 .brand-logo-image {
     width: 40px;
     // margin-bottom: 20px;
@@ -37,10 +33,17 @@ header {
 
 a.nav-link-btn {
     background-color: variables.$red-color;
-    margin-left: 10px;
     padding: 10px;
     border-radius: 20px;
     opacity: 90%;
+    max-width: 150px;
+    margin-left: -10px;
+    margin-top: 10px;
+
+    @media(min-width:992px) {
+      margin-left: 10px;
+      margin-top: 0px;
+    }
 
 }
 a.nav-link {
@@ -58,8 +61,13 @@ a.nav-link {
 
 .navbar-collapse {
   font-size: 20px;
-}
+  margin-left: 10%;
 
-.dropdown-menu show {
-  background-color: linear-gradient(to right, rgba(25, 73, 62, 0.1), #19493E ) !important;
+  @media(min-width:1200px) {
+    margin-left: 20%;
+  }
+
+  @media(min-width:1800px) {
+    margin-left: 35%;
+  }
 }
