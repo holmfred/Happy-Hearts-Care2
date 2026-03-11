@@ -12,7 +12,10 @@ function HomeProject() {
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={School} />
                 <Card.Body>
-                <Card.Title>Skole</Card.Title>
+                <Card.Title>Utdanning</Card.Title>
+                <Card.Text>
+                    Utdanning er den sikreste veien ut av fattigdom.
+                </Card.Text>
                 </Card.Body>
             </Card>
         </div>
@@ -21,6 +24,9 @@ function HomeProject() {
                 <Card.Img variant="top" src={Nutrition} />
                 <Card.Body>
                 <Card.Title>Ernæring</Card.Title>
+                <Card.Text>
+                  Vi deler ut mat ved behov og spesielle anledninger.
+                </Card.Text>
                 </Card.Body>  
             </Card>
         </div>

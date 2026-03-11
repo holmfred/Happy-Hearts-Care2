@@ -1,0 +1,22 @@
+.greetings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 20px;
+
+    & > * {
+        max-width: 1000px;
+    }
+
+    & hr {
+        max-width: 1200px;
+        margin: 0 auto;
+        border: none;
+        height: 2px;
+        background-color: black;
+        opacity: 40%;
+        margin-bottom: 20px;
+    }
+}

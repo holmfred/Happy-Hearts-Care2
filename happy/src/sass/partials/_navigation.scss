@@ -8,6 +8,10 @@ header {
     background: linear-gradient(to right, rgba(25, 73, 62, 0.1), #19493E );
 }
 
+.nav-left {
+  display: flex;
+}
+
 .brand-logo-image {
     width: 40px;
     // margin-bottom: 20px;
@@ -36,7 +40,20 @@ a.nav-link-btn {
     margin-left: 10px;
     padding: 10px;
     border-radius: 20px;
+    opacity: 90%;
 
+}
+a.nav-link {
+  color: white !important;
+}
+.nav-link-btn {
+  text-decoration: none ;
+  color: white;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .navbar-collapse {
